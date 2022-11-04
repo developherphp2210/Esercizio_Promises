@@ -1,0 +1,67 @@
+:root{
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before{
+    box-sizing: inherit;
+}
+
+body *+*{
+    margin-top: 1.5em;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.vertical-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.col{
+    flex: 1;
+    overflow: hidden;
+    margin-top: inherit;
+    padding: 2px;
+}
+
+main{
+    margin-top: 3px;
+}
+
+h4{
+    text-align: center;
+}
+
+.excercise-display{
+    border: 1px #999 solid;
+    background-color: cadetblue;
+    padding: 10px;
+    overflow: hidden;            
+}
+
+.error-display{
+    border: 1px #999 solid;
+    background-color: red;
+    padding: 10px;
+    overflow: hidden;
+}
+
+p {            
+    margin: 0;            
+}
+
+.log-display{
+    border: 1px #999 solid;
+    background-color: rgb(128, 73, 0);
+    padding: 10px;
+    overflow: hidden;
+}
